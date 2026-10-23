@@ -33,7 +33,7 @@ I build **warehouse management systems** end to end: the .NET backend that talks
 
 ### 📌 Highlights
 
-| | |
+| Project | What it is |
 |---|---|
 | 🎓 [**zero-to-senior-flutter-dotnet-course**](https://github.com/Warayuth014/zero-to-senior-flutter-dotnet-course) | Course material: from zero to senior with Flutter and .NET |
 | 📱 [**wms-app**](https://github.com/Warayuth014/wms-app) | Flutter app for warehouse operations on PDA scanners |
