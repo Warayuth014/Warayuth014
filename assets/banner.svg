@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Warayut Bunbanlu — Full-stack developer · Flutter &amp; .NET · Warehouse systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1d"/>
+      <stop offset="0.55" stop-color="#121733"/>
+      <stop offset="1" stop-color="#1d0f2e"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cf3ff"/>
+      <stop offset="0.5" stop-color="#a98bff"/>
+      <stop offset="1" stop-color="#ff6fd1"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.82" cy="0.25" r="0.45">
+      <stop offset="0" stop-color="#ff4fbf" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff4fbf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.12" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#2fd8ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#2fd8ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glowA)"/>
+  <rect width="1280" height="320" fill="url(#glowB)"/>
+
+  <!-- faint code on the right -->
+  <g font-family="Consolas, 'Cascadia Code', 'JetBrains Mono', monospace" font-size="15" fill="#c9d4ff" fill-opacity=".22">
+    <text x="830" y="70">var order = await api.PostAsync("picking/confirm");</text>
+    <text x="830" y="96">services.AddScoped&lt;IWmsService, WmsService&gt;();</text>
+    <text x="830" y="122">Widget build(BuildContext context) =&gt; ScanField();</text>
+    <text x="830" y="148">hub.On("PickingChanged", Refresh);</text>
+  </g>
+
+  <!-- gamepad mark -->
+  <g transform="translate(1080 196)" fill="none" stroke="#ff6fd1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".85">
+    <path d="M18 8h84c22 0 34 18 38 44l4 26c2 14-12 22-22 12l-20-20H38L18 90C8 100-6 92-4 78l4-26C4 26 0 8 18 8z"/>
+    <path d="M34 32v24M22 44h24"/>
+    <circle cx="90" cy="36" r="5" fill="#ff6fd1" stroke="none"/>
+    <circle cx="104" cy="50" r="5" fill="#7cf3ff" stroke="none"/>
+  </g>
+
+  <!-- brackets -->
+  <text x="820" y="292" font-family="Consolas, 'Cascadia Code', monospace" font-size="96" fill="#7cf3ff" fill-opacity=".12">&lt;/&gt;</text>
+
+  <!-- name and role -->
+  <text x="80" y="140" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="1" fill="url(#name)">Warayut Bunbanlu</text>
+  <text x="82" y="186" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#e6e9ff" fill-opacity=".92">Full-stack developer · Flutter &amp; .NET · Warehouse systems</text>
+  <g font-family="Consolas, 'Cascadia Code', monospace" font-size="16" fill="#9aa6d6">
+    <text x="82" y="236">&gt; dev by day, gamer by night_</text>
+  </g>
+
+  <!-- bottom chips -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="80" y="258" width="88" height="30" rx="15" fill="#7cf3ff" fill-opacity=".12" stroke="#7cf3ff" stroke-opacity=".5"/>
+    <text x="124" y="278" text-anchor="middle" fill="#7cf3ff">Flutter</text>
+    <rect x="178" y="258" width="76" height="30" rx="15" fill="#a98bff" fill-opacity=".12" stroke="#a98bff" stroke-opacity=".5"/>
+    <text x="216" y="278" text-anchor="middle" fill="#c6b5ff">.NET</text>
+    <rect x="264" y="258" width="88" height="30" rx="15" fill="#ff6fd1" fill-opacity=".12" stroke="#ff6fd1" stroke-opacity=".5"/>
+    <text x="308" y="278" text-anchor="middle" fill="#ff9ee0">Blazor</text>
+    <rect x="362" y="258" width="136" height="30" rx="15" fill="#ffd36e" fill-opacity=".1" stroke="#ffd36e" stroke-opacity=".5"/>
+    <text x="430" y="278" text-anchor="middle" fill="#ffd36e">WMS · ASRS</text>
+  </g>
+</svg>
