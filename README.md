@@ -39,7 +39,7 @@ I build **warehouse management systems** end to end: the .NET backend that talks
 | 📱 [**wms-app**](https://github.com/Warayuth014/wms-app) | Flutter app for warehouse operations on PDA scanners |
 | ⚙️ [**wms-api**](https://github.com/Warayuth014/wms-api) | .NET Web API behind the warehouse app |
 | 🍪 [**cookiebot-updates**](https://github.com/Warayuth014/cookiebot-updates) | Installers and a signed update channel for CookieBot |
-| 🌐 [**warayuth014.github.io**](https://warayuth014.github.io) | Personal site |
+| 🌐 [**warayuth014.github.io**](https://warayuth014.github.io) | Personal site: TH/EN, interactive three.js desk (night & day), articles and a password-protected `/edit` that saves through a Cloudflare Worker |
 | 🧵 **Ariadne** *(private)* | Code tracer for C# / Razor: call trees across URL, DI and event hops, live updates on save |
 
 ### 📫 Get in touch
